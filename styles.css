@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  font-size: 62.5%;
+  font-family: "Source Serif Pro", monospace;
+}
+body {
+  font-size: 1.6rem;
+  color: #a54328;
+}
+
+main {
+  max-width: 32rem;
+  margin-inline: auto;
+  padding: 5.6rem 4rem;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.recipe h2 {
+  font-size: 28.343px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.recipe img {
+  width: 100%;
+  margin: 4.677rem auto;
+}
+.recipe p {
+  width: 100%;
+  font-size: 1.4171rem;
+  font-weight: 400;
+}
+.ingredients h2 {
+  font-family: Source Serif Pro;
+  font-size: 2.8343rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 36.14px;
+}
+.ingredients strong {
+  color: #a54328;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Serif Pro;
+  font-size: 14.171px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ingredients ol,
+.ingredients ul {
+  padding-left: 2.4rem;
+}
+.ingredients ul {
+  margin-bottom: 2.4rem;
+}
+.ingredients ul li,
+.ingredients ol li {
+  color: #a54328;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Source Serif Pro;
+  font-size: 14.171px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+button {
+  font-family: "Source Serif 4", monospace;
+  color: #fff;
+  font-weight: 500;
+  padding: 11px;
+  background: #a54328;
+  border: 0;
+  border-radius: 8px;
+  margin-top: 1.8rem;
+}
+@media (min-width: 1020px) {
+  main {
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 16rem;
+    padding: 9rem 6rem;
+  }
+  .recipe {
+    max-width: 43.5rem;
+  }
+  .ingredients {
+    max-width: 52.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  p,
+  li,
+  strong {
+    font-size: 2rem;
+    line-height: normal;
+  }
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    lin-height: 2.4rem;
+  }
+}
